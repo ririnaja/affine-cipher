@@ -1,0 +1,23 @@
+{
+  "version": "0.2.0",
+  "configurations": [{
+    "name": "C/C++ Runner: Debug Session",
+    "type": "cppdbg",
+    "request": "launch",
+    "args": [],
+    "stopAtEntry": true,
+    "cwd": "c:\\Users\\KRESHNA PUTRA ADI\\Documents\\1. FOLDER KULIAH\\SEMESTER 3\\PRAK SKD\\PERTEMUAN 5",
+    "environment": [],
+    "program": "${fileDirname}/${fileBasenameNoExtension}",
+    "internalConsoleOptions": "openOnSessionStart",
+    "MIMode": "gdb",
+    "miDebuggerPath": "gdb",
+    "externalConsole": false,
+    // "miDebuggerArgs": "",
+    "setupCommands": [{
+      "description": "Enable pretty-printing for gdb",
+      "text": "-enable-pretty-printing",
+      "ignoreFailures": true
+    }]
+  }]
+}
